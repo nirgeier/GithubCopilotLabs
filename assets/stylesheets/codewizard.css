@@ -759,8 +759,7 @@ body[data-path*="02"] .md-content {
   pre,
   table,
   img {
-    -moz-column-break-inside: avoid;
-         break-inside: avoid;
+    break-inside: avoid;
   }
   /* Remove page breaks before and after headers and sections */
   h1,
@@ -770,10 +769,8 @@ body[data-path*="02"] .md-content {
   h5,
   h6,
   section {
-    -moz-column-break-before: auto;
-         break-before: auto;
-    -moz-column-break-after: auto;
-         break-after: auto;
+    break-before: auto;
+    break-after: auto;
   }
   emsp {
     padding: 0 5px 0 0;
@@ -939,8 +936,7 @@ body[data-path*="02"] .md-content {
   border-radius: 50%;
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
